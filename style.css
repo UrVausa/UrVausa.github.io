@@ -1,0 +1,168 @@
+.grandrect {
+    width: 100vw;
+    height: 100vh;
+    border-radius:20px;
+    background:linear-gradient(90deg,rgba(109,63,29,1) 0%, rgba(158,94,45,1) 61%,rgba(201,117,39,1) 100%);
+    border-color:#6D3F1D;
+    border-width:2px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+  }
+  .night .grandrect {
+    background:linear-gradient(90deg,rgb(34, 32, 37) 0%, rgb(10, 10, 12) 61%,rgb(5, 7, 7) 100%);
+  }
+  #intro {
+    width: 40vw;
+    height: 35vh;
+    background-color:#AC591B;
+    border-radius:20px;
+    border:solid;
+    border-color:#6D3F1D;
+    border-width:2px;
+    display:flex;
+    align-self:center;
+    justify-items:center;
+    margin-left:35px;
+    box-shadow:10px 10px 15px #6D3F1D;
+  }
+  .night #intro {
+    background-color:#55558b;
+    box-shadow:10px 10px 15px #1f1f41;
+    border-color:#242455;
+  }
+  #photo {
+    width: 200px;
+    background-color:rgb(225, 220, 220);
+    height: 200px;
+    border-radius:100%;
+    border:solid;
+    border-color:#AEAEAE;
+    border-width:2px;
+    display:flex;
+    align-self:center;
+    justify-items:center;
+    margin-left:35px;
+  }
+  .night #photo {
+    background-color: #ded1d1;
+  }
+  #skills {
+    height: 50%;
+    width: 100%;
+    background-color:#F39650;
+    border-radius:15px;
+    border:solid;
+    border-color:#6D3F1D;
+    margin-top:45px;
+    background:linear-gradient(90deg,rgba(145,72,17,1) 0%, rgba(203,119,56,1) 61%,rgba(243,150,80,1) 100%);
+    border-width:2px;
+    margin-left:35px;
+    margin-top:35px;
+    box-shadow:10px 10px 15px #6D3F1D;
+    margin-left:35px
+  } 
+  .night #skills {
+    box-shadow:10px 10px 15px #104957;
+    border-color:#0b6278;
+    background: linear-gradient(90deg,#55558b 0%, #3b3b67 61%,#1a1a35 100%); 
+  }
+  .btn {
+    height: 35px;
+    width: 180px;
+    border-radius:20px;
+    border-style:solid;
+    border-width: 2.5px;
+    border-color:#6D3F1D;
+    background:linear-gradient(90deg,rgba(241,138,61,1) 0%, rgba(203,119,56,1) 61%,rgba(243,150,80,1) 100%);
+    transition:2s;
+  }
+  .night .btn {
+    background:linear-gradient(90deg,rgb(18, 174, 172) 0%, rgb(19, 140, 156) 61%,rgb(11, 124, 132) 100%); 
+    border-color:#1d446d;
+  }
+  .bigrect {
+    width: 40%;
+    height: 90%;
+  }
+  #right{
+    display:flex;
+    align-self:center;
+    justify-content:space-around;
+    justify-items:center;
+    flex-direction:column;
+    }
+  #form{
+    height: 85%;
+    width: 85%;
+    border-radius:15px;
+    border:solid;
+    border-color:#6D3F1D;
+    margin-top:45px;
+    background:linear-gradient(90deg,rgba(145,72,17,1) 0%, rgba(203,119,56,1) 61%,rgba(243,150,80,1) 100%);
+    border-width:2px;
+    margin-left:35px;
+    margin-top:35px;
+    box-shadow:10px 10px 15px #6D3F1D;
+    margin-left:35px
+  }
+  .night #form{
+    background: linear-gradient(90deg,#55558b 0%, #3b3b67 61%,#1a1a35 100%);
+  }
+  .btns{
+    width: 100%;
+    height: 10%;
+    display:flex;
+    justify-content:space-between;
+    justify-items:center;
+  }
+  #contact:hover{
+    height: 35px;
+    width: 180px;
+    border-radius:20px;
+    border-style:solid;
+    border-width: 3px;
+    border-color:#720026;
+    transition:2s;
+    background:linear-gradient(90deg,rgba(235,122,18,1) 0%, rgba(175,0,24,1) 61%,rgba(79,0,11,1) 100%);
+  }
+  #aboutme:hover {
+    height: 35px;
+    width: 180px;
+    border-radius:20px;
+    border-style:solid;
+    border-width:3px;
+    border-color:#A67DB8;
+    transition:2s;
+    background:linear-gradient(90deg,rgba(79,0,11,1) 0%, rgba(137,49,104,1) 61%,rgba(74,25,66,1) 100%);
+  }
+  #experience:hover {
+    height: 35px;
+    width: 180px;
+    border-radius:20px;
+    border-style:solid;
+    border-width: 3px;
+    border-color:#87BBA2;
+    transition:2s;
+    background:linear-gradient(90deg,rgba(74,25,66,1) 0%, rgba(85,130,139,1) 61%,rgba(135,187,162,1) 100%);
+  }
+  #jour:hover {
+    height: 35px;
+    width: 180px;
+    border-radius:20px;
+    border-style:solid;
+    border-width: 3px;
+    border-color:#329967;
+    transition:2s;
+    background:linear-gradient(90deg,rgb(2, 2, 2) 0%, rgb(85, 85, 139) 61%,rgb(30, 123, 78) 100%);
+  }
+  .night #jour:hover {
+    height: 35px;
+    width: 180px;
+    border-radius:20px;
+    border-style:solid;
+    border-width: 3px;
+    border-color:#78290f;
+    transition:2s;
+    background:linear-gradient(90deg,rgba(145,72,17,1) 0%, rgba(203,119,56,1) 61%,rgba(243,150,80,1) 100%);
+  }
