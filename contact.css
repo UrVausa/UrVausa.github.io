@@ -5,15 +5,43 @@
     border-width:2px;
     border-radius:20px;
     background:linear-gradient(90deg,rgba(235,122,18,1) 0%, rgba(175,0,24,1) 61%,rgba(79,0,11,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
   }
 .grandrec{
 width: 95%;
 height: 95%;
 background-color: green;
+display: flex;
+justify-content:space-between;
+align-items:center;
 }
 .bigrec {
   width: 70%;
-  height: 20%;
+  height: 40%;
+}
+#mail {
+  background-color: orange;
+}
+#left{
+  width: 30%;
+  height: 85%;
   background-color: purple;
+}
+#right{
+  width: 30%;
+  height: 85%;
+  background-color: rgb(0, 17, 128);
+}
+.contactus{
+ display:flex;
+ justify-content: end;
+ position:absolute;
+ bottom:20px;
+ right:20px;
+}
+.titre{
+  
 }
